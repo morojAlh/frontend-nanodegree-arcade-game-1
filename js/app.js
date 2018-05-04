@@ -60,7 +60,7 @@ class Player {
       this.x = x;
       this.y = y;
 
-      this.figure = 'images/char-horn-girl.png';
+      this.sprite = 'images/char-horn-girl.png';
   }
 
   // Update the player position, required method for game
@@ -84,7 +84,7 @@ class Player {
 
   // Draw the player on the screen, required method for game
   render(){
-      ctx.drawImage(Resources.get(this.figure), this.x, this.y);
+      ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
   }
 
   // When press some key the player will move depending on the key
@@ -122,10 +122,7 @@ function start(){
   enemy140 = new Enemy(-100,140,Math.floor(Math.random() * 400)+ 150);
   enemy220 = new Enemy(-100,220,Math.floor(Math.random() * 400)+ 150);
 
-  allEnemies.push(enemy50);
-  allEnemies.push(enemy140);
-  allEnemies.push(enemy220);
-  console.log(allEnemies);
+  allEnemies = [enemy50, enemy140, enemy220];
 }
 
 // This listens for key presses and sends the keys to your
