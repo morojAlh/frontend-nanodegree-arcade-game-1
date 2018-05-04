@@ -10,7 +10,7 @@
 
   You can play the game from [Here](https://morojalh.github.io/frontend-nanodegree-arcade-game-1/).
 
-  - You should use the arrows key in the keyboard, to go up, down, left and right.
+  - You should use the arrows key in the keyboard to go up, down, left and right.
   - If you colliding one of the enemies the game will start again.
   - If you reach the water you will get the congratulations message and the game will start again.
 
