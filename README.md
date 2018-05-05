@@ -15,11 +15,13 @@
   - If you colliding one of the enemies the game will start again.
   - If you reach the water you will get the congratulations message and the game will start again.
 
-##Instructions
-  To load the game locally follow the steps
+## Instructions
+  To load the game locally follow the steps:
   - Clone the project in the folder you want
-    `git clone https://github.com/morojAlh/frontend-nanodegree-arcade-game-1.git `
-  - Go to the folder you download project in it > frontend-nanodegree-arcade-game-1
+      ```
+      git clone https://github.com/morojAlh/frontend-nanodegree-arcade-game-1.git
+      ```
+  - Go to the folder you download the project in it > frontend-nanodegree-arcade-game-1
   - Open `index.html` with your browser.
 
 ## Usage
