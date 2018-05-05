@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [Introduction to the game](#introduction-to-the-game)
+* [Instructions](#instructions)
 * [Usage](#usage)
 
 
@@ -13,6 +14,13 @@
   - You should use the arrows key in the keyboard to go up, down, left and right.
   - If you colliding one of the enemies the game will start again.
   - If you reach the water you will get the congratulations message and the game will start again.
+
+##Instructions
+  To load the game locally follow the steps
+  - Clone the project in the folder you want
+    `git clone https://github.com/morojAlh/frontend-nanodegree-arcade-game-1.git `
+  - Go to the folder you download project in it > frontend-nanodegree-arcade-game-1
+  - Open `index.html` with your browser.
 
 ## Usage
   - Udacity provided the art assets and game engine for you. You can download or clone them from this repository. [Here](https://github.com/udacity/frontend-nanodegree-arcade-game).
